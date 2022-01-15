@@ -1,6 +1,7 @@
 body{
     width: 100%;
     margin: auto;
+    font-family: 'Roboto', sans-serif;
 }
 /* header area start */
 .navigation-part{
@@ -18,10 +19,12 @@ body{
 .container .logo-area h2{
     color: #FD8314;
     font-size: 35px;
+    font-family: 'Shrikhand', cursive;
 }
 .container .logo-area small{
     color: #F85240;
     font-size: 18px;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 .container .navigation-area ul{
     display: flex;
@@ -58,8 +61,9 @@ body{
     align-items: center;
 }
 .top-part .left-side-text h1{
-    font-size: 35px;
+    font-size: 46px;
     color: #FA682C;
+    font-family: 'Arizonia', cursive;
 }
 .top-part .left-side-text p{
     font-style: italic;
@@ -113,8 +117,9 @@ body{
 .head-tag h1 {
     text-align: center;
     margin-top: 55px;
-    font-size: 35px;
+    font-size: 46px;
     color: #FA682C;
+    font-family: 'Arizonia', cursive;
 }
 .hot-deal{
     width: 80%;
@@ -163,6 +168,7 @@ body{
     color: whitesmoke;
     display: inline-block;
     float: right;
+    margin-top: 10px;
 }
 .see-more button:hover{
     background-color: whitesmoke;
@@ -176,3 +182,79 @@ body{
 /* hot-deal end */
 
 /* subscription-area start */
+.subscription-area{
+    width: 80%;
+    margin: auto;
+}
+.subscription-text h1{
+    font-size: 30px;
+    color: #FA682C;
+    text-align: center;
+    margin: 70px 0 10px 0;
+    font-family: 'Shrikhand', cursive;
+}
+.subscription-text p{
+    font-style: italic;
+    text-align: center;
+    margin-top: 0%;
+    color: #747474;
+    font-size: 17px;
+}
+.signup-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    width: 25%;
+    padding: 20px 20px;
+    border: 1px solid #b4b2b2;
+    border-radius: 15px 0 0 15px;
+
+}
+.signup-box h3{
+    padding: 19px 20px ;
+    background-color: #F85240;
+    border-radius: 0 15px 15px 0;
+    color: whitesmoke;
+}
+.signup-box i{
+    padding-left: 15px;
+    font-size: 20px;
+}
+/* subscription-area end */
+
+/* footer area start */
+    footer {
+        height: 140px;
+        background-color: #212529;
+    }
+    footer h2{
+        padding-top: 25px;
+        text-align: center;
+        font-size: 18px;
+        color: whitesmoke;
+        margin-bottom: 0;
+    }
+    footer h2 i{
+        color: #F85240;
+    }
+    footer P{
+        margin: 0;
+        text-align: center;
+        color: whitesmoke;
+        font-style: italic;
+    }
+    .social-icon{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .social-icon a{
+        text-align: center;
+        font-size: 25px;
+        color: whitesmoke;
+        padding: 8px;
+        
+    }
+/* footer area end */
