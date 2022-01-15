@@ -74,6 +74,12 @@ body{
     border-radius: 15px;
     color: whitesmoke;
 }
+.top-part button:hover{
+    background-color: whitesmoke;
+    color: #F85240;
+    border: 1.5px solid #b4b2b2;
+
+}
 .top-part i{
     padding-left: 15px;
     font-size: 18px;
@@ -102,3 +108,71 @@ body{
     padding: 0 20px;
 }
 /* sponser-area end */
+
+/* hot-deal start */
+.head-tag h1 {
+    text-align: center;
+    margin-top: 55px;
+    font-size: 35px;
+    color: #FA682C;
+}
+.hot-deal{
+    width: 80%;
+    margin: auto;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.product{
+    background-color: #fdfdfd;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.product img{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product h3{
+    text-align: center;
+}
+.product h4{
+    text-align: center;
+    font-style: italic;
+    margin: 5px 5px;
+    color: #4e4e4e;
+}
+.product span{
+    margin-left: 80px;
+    color: #F6A104;
+}
+.product small{
+    color: #b4b2b2;
+    padding-left: 15px;
+}
+.see-more button{
+    padding: 10px 40px;
+    font-size: 18px;
+    background-color: #F85240;
+    border: none;
+    border-radius: 15px;
+    color: whitesmoke;
+    display: inline-block;
+    float: right;
+}
+.see-more button:hover{
+    background-color: whitesmoke;
+    color: #F85240;
+    border: 1.5px solid #b4b2b2;
+}
+.see-more i{
+    padding-left: 15px;
+    font-size: 18px;
+}
+/* hot-deal end */
+
+/* subscription-area start */
