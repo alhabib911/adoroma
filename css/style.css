@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    margin: auto;
+}
+/* header area start */
+.navigation-part{
+    width: 100%;
+    margin: auto;
+    background-color: #fafafa;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo-area h2{
+    color: #FD8314;
+    font-size: 35px;
+}
+.container .logo-area small{
+    color: #F85240;
+    font-size: 18px;
+}
+.container .navigation-area ul{
+    display: flex;
+}
+.container .navigation-area ul li{
+    list-style: none;
+}
+.container .navigation-area ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #4e4e4e;
+    font-size: 18px;
+    font-weight: 500;
+}
+.container .navigation-area ul li a:hover{
+    background-color: #FA682C;
+    color: whitesmoke;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+.container .navigation-area a{
+    padding-left: 20px;
+    color: #F85240;
+    font-size: 18px;
+}
