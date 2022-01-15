@@ -47,3 +47,38 @@ body{
     color: #F85240;
     font-size: 18px;
 }
+/* header area stop */
+
+/* main area start */
+.top-part{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-part .left-side-text h1{
+    font-size: 35px;
+    color: #FA682C;
+}
+.top-part .left-side-text p{
+    font-style: italic;
+    font-size: 18px;
+    color: #747474;
+}
+.top-part button {
+    padding: 10px 40px;
+    font-size: 18px;
+    background-color: #F85240;
+    border: none;
+    border-radius: 15px;
+    color: whitesmoke;
+}
+.top-part i{
+    padding-left: 15px;
+    font-size: 18px;
+}
+.top-part .right-side-image{
+    width: 380px;
+    margin-top: 25px;
+}
