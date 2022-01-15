@@ -47,7 +47,7 @@ body{
     color: #F85240;
     font-size: 18px;
 }
-/* header area stop */
+/* header area End */
 
 /* main area start */
 .top-part{
@@ -82,3 +82,23 @@ body{
     width: 380px;
     margin-top: 25px;
 }
+
+/* top-part end */
+
+/* sponser-area start */
+.line  {
+    width: 80%;
+    margin: auto;
+}
+.line hr{
+    border: 1px solid #F85240;
+    
+}
+.sponser-images{
+    display: flex;
+    justify-content: center;
+}
+.sponser-images img{
+    padding: 0 20px;
+}
+/* sponser-area end */
