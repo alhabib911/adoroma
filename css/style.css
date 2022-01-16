@@ -299,7 +299,68 @@ input{
 
 /* Media Quary */
 
-/* Mobile view */
+/* Tablet view start */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    @keyframes sliding {
+        0%{
+            background-color: #ffffff;
+            left: 0;
+        }
+        100%{
+            background-color: #ffffff;
+            left: 100%;
+        }
+    }
+    .stage{
+        width: 62%;
+        margin: auto;
+        height: 1px;
+        background-color: #ffffff;
+        display: flex;
+    }
+    .ball{
+        width: 750px;
+        height: 70px;
+        position: relative;
+        animation: sliding 8s ease-in .5s infinite alternate;
+        animation-play-state: running;
+    }
+    .text-effect h2{
+        text-align: center;
+        color: #000;
+        font-family: "Alegreya Sans SC", sans-serif;
+        color: #FD8314;
+    }
+    .text-effect h2 span{
+        font-family: 'Shrikhand', cursive;
+        color: #FD8314;
+    }
+    .top-part .right-side-image{
+        margin: 25px;
+    }
+    .top-part .right-side-image img{
+        width: 300px;
+    }
+    .sponser-images img{
+        padding: 10px;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .subscription-text h1{
+        font-size: 24px;
+        font-family: 'Alegreya Sans SC', sans-serif;
+    }
+}
+/* Tablet view end */
+
+/* Mobile view start */
+
 @media only screen and (max-width:688px) {
     .container{
         width: 100%;
@@ -362,3 +423,8 @@ input{
         height: 165px;
         background-color: #212529;
 }
+
+/* Mobile view end */
+
+/* Tablet view start */
+
