@@ -293,7 +293,72 @@ input{
         text-align: center;
         font-size: 25px;
         color: whitesmoke;
-        padding: 8px;
-        
+        padding: 8px;  
     }
 /* footer area end */
+
+/* Media Quary */
+
+/* Mobile view */
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .navigation-area ul{
+        margin: 0 0 10px 0;
+        padding: 0;
+    }
+    .navigation-area li{
+        align-items: center;
+    }
+    .navigation-area li a{
+        font-size: 14px;
+    }
+    .navigation-area .nav-icon{
+        display: none;
+    }
+    .ball, .text-effect{
+        display: none;
+    }
+    .top-part{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right-side-image img{
+        width: 100%;
+    }
+    .sponser-images{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponser-images img{
+        margin: 12px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .subscription-area h1{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .signup-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .signup-box input{
+        width: 100%;
+        border-radius: 0;
+    }
+    .signup-box h3{
+        width: 100%;
+        text-align: center;
+        border-radius: 0;
+    }
+    footer {
+        height: 165px;
+        background-color: #212529;
+}
