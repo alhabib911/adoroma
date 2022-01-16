@@ -53,6 +53,43 @@ body{
 /* header area End */
 
 /* main area start */
+
+/* top-part start */
+@keyframes sliding {
+    0%{
+        background-color: #ffffff;
+        left: 0;
+    }
+    100%{
+        background-color: #ffffff;
+        left: 85%;
+    }
+}
+.stage{
+    width: 59%;
+    margin: auto;
+    height: 1px;
+    background-color: #ffffff;
+    display: flex;
+}
+.ball{
+    width: 800px;
+    height: 70px;
+    position: relative;
+    animation: sliding 8s ease-in .5s infinite alternate;
+    animation-play-state: running;
+}
+.text-effect h2{
+    text-align: center;
+    color: #000;
+    font-family: "Alegreya Sans SC", sans-serif;
+    color: #FD8314;
+}
+.text-effect h2 span{
+    font-family: 'Shrikhand', cursive;
+    color: #FD8314;
+}
+
 .top-part{
     width: 80%;
     margin: auto;
@@ -65,7 +102,6 @@ body{
     color: #FA682C;
     font-family: 'Arizonia', cursive;
 }
-
 .top-part .left-side-text p{
     font-style: italic;
     font-size: 18px;
@@ -224,6 +260,8 @@ input{
     font-size: 20px;
 }
 /* subscription-area end */
+
+/* main area end */
 
 /* footer area start */
     footer {
